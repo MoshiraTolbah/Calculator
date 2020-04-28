@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+  <EditText
+      android:id="@+id/edit1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:layout_marginTop="100dp"
+      android:inputType="number"
+      android:hint="number 1"/>
+
+  <EditText
+      android:id="@+id/edit2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:layout_marginTop="200dp"
+      android:hint="number 2"
+      android:inputType="number" />
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="250dp"
+      android:layout_marginLeft="70dp"
+      android:text="+"
+      android:id="@+id/plus"
+      android:background = "@drawable/roundedbutton"/>
+  <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="250dp"
+        android:text="-"
+        android:id="@+id/Minus"
+        android:background = "@drawable/roundedbutton"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="160dp"
+        android:text="x"
+        android:id="@+id/Multiply"
+        android:background = "@drawable/roundedbutton"/>
+
+  <Button
+      android:id="@+id/division"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="70dp"
+      android:layout_marginTop="450dp"
+      android:background="@drawable/roundedbutton"
+      android:text="/" />
+
+  <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="250dp"
+        android:text="%"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:id="@+id/Precent"
+        android:background = "@drawable/roundedbutton"/>
+
+
+
+  <TextView
+      android:id="@+id/Result"
+      android:layout_width="150dp"
+      android:layout_height="50dp"
+      android:layout_marginStart="250dp"
+      android:layout_marginTop="580dp"
+      android:text="Result"
+      android:textSize="40dp"
+      android:textColor="#87CEEB"/>
+
+
+
+</RelativeLayout>
